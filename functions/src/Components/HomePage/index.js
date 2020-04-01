@@ -7,11 +7,13 @@ exports["default"] = void 0;
 
 var _react = _interopRequireDefault(require("react"));
 
+var _Layout = _interopRequireDefault(require("./Layout"));
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
-var App = function App(props) {
-  return /*#__PURE__*/_react["default"].createElement("div", null, "Hello from server side");
+var HomePage = function HomePage() {
+  return /*#__PURE__*/_react["default"].createElement("div", null, "Home", /*#__PURE__*/_react["default"].createElement(_Layout["default"], null));
 };
 
-var _default = App;
+var _default = HomePage;
 exports["default"] = _default;

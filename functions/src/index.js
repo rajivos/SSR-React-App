@@ -4,7 +4,7 @@ var _react = _interopRequireDefault(require("react"));
 
 var _reactDom = require("react-dom");
 
-var _App = _interopRequireDefault(require("./App.js"));
+var _App = _interopRequireDefault(require("./Components/App.js"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
